@@ -1,0 +1,1 @@
+grep -o "[0-9]\+\.[0-9]\+\.[0-9]\+\.[0-9]\+" cat1.txt | sort | uniq -c | sort -r
