@@ -1,0 +1,11 @@
+Steps to run the bitcoin container
+***********************************
+$ docker run farook/bitcoin
+$ docker run farook/bitcoin:0.11
+$ docker run -d --rm --name bitcoind farook/bitcoin
+$ docker ps
+$ docker logs -f bitcoind
+To stop and restart a running container:
+
+$ docker stop bitcoind
+$ docker start bitcoind
